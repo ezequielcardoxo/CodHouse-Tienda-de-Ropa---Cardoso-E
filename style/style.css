@@ -44,7 +44,53 @@ nav {
     background: #ffd7ba;
     height: 4em;
     grid-area: navIndex;
+}
 
+.divNav {
+    background: #ffd7ba;
+    height: 4em;
+    justify-content: space-evenly;    
+    justify-items: auto;
+}
+
+.navIndex {
+    width: 100%;
+    margin-right: 0%;
+    justify-content: space-around;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #001219;
+    font-family: monospace;
+}
+
+.barra {
+    padding: 0;
+    margin: 0;
+    background: #ffd7ba;
+}
+
+.aFonts {
+    padding: 0;
+    /* margin-bottom: 1em; */
+    margin: 0;
+    background-color: #ffd7ba;
+    height: auto;
+}
+
+.a2Fonts {
+    background-color: #e78f8e;
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+
+.barraProducts {
+    margin: 0;
+    padding: 0;
+    background-color: #e78f8e;
+    height: auto;
 }
 
 nav ul {
@@ -155,6 +201,7 @@ main .centrarForm {
     grid-area: footerFinal;
 }
 
+
 .redes {
     display: flex;
     justify-content: center;
@@ -196,3 +243,4 @@ main .centrarForm {
     transition: all 0.5s;
     transform: scale(1.1);
 }
+
