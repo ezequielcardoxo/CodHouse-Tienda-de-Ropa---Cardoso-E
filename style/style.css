@@ -219,8 +219,23 @@ main .centrarForm {
     text-align: justify;
     background-color: hsl(342, 71%, 86%);
     border-radius: 20%;
-    padding: 10em;
+    padding: 5em;
     box-shadow: 0 0 1.3em 0 #f55f8c;
+}
+
+
+.imgG {
+    width: 100%;
+}
+
+.columnImg {
+    padding: 0;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    
+    
 }
 
 @media screen and (max-width: 768px) {
