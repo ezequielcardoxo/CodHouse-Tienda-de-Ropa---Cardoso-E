@@ -133,13 +133,7 @@ a {
     list-style: none;
 }
 
-main .centrarForm {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
-
-.divForm form {
+/* .centrarForm {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -153,10 +147,6 @@ main .centrarForm {
     margin: 1em 0 5em 0;
 }
 
-.divForm>* {
-    padding: 1em;
-}
-
 .divForm form p,
 .divForm form label,
 .divForm form input,
@@ -167,32 +157,19 @@ main .centrarForm {
     text-align: center;
 }
 
-.divForm form button {
-    margin: 1em;
-    background-color: #EDB6A3
+form p {
+    margin: 0 auto;
 }
 
+.buttomForm {
+    margin: 0 auto;
+    background-color: #EDB6A3;
+}
+ */
 .p1 {
     font-size: 1.5em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-/* .gridIndex {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-gap: 3em;
-    justify-content: center;
-    margin: 5em 2em 5em 2em;
-}
-
-.gridProducts {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-gap: 2em;
-    justify-content: center;
-    align-items: center;
-    margin: 5em 0 5em 0;
-} */
 
 .contact {
     font-size: 20px;
@@ -267,5 +244,46 @@ main .centrarForm {
     transform: scale(1.1);
 }
 
+/* ACA COMIENZA EL FORMULARIO QUE HICE EN SCSS */
 
+.centrarForm {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.centrarForm h2 {
+  text-align: center;
+  font-size: 3.5em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: #e78f8e;
+  text-shadow: 3px 5px 5px;
+  margin: 1.5em auto 1.5em auto;
+}
+.centrarForm .divForm {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 1.1em 0 rgb(226, 78, 201);
+  padding: 1em;
+  background-color: #e4b5c8;
+  width: 100%;
+  margin: 1em 0 5em 0;
+}
+.centrarForm .divForm form p,
+.centrarForm .divForm form label,
+.centrarForm .divForm form input,
+.centrarForm .divForm form button,
+.centrarForm .divForm form textarea {
+  width: 90%;
+  padding: 1em;
+  text-align: center;
+}
+.centrarForm form p {
+  margin: 0 auto;
+}
+.centrarForm .buttomForm {
+  margin: 0 auto;
+  background-color: #EDB6A3;
+}
 
+/*# sourceMappingURL=style.css.map */
