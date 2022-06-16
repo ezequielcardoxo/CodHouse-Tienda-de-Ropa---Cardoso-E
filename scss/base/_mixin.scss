@@ -1,0 +1,4 @@
+@mixin lados ($relleno,$borde) {
+    padding: $relleno;
+    margin: $borde;
+} 

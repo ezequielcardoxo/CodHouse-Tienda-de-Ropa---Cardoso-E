@@ -1,35 +1,32 @@
 nav {
     background: #ffd7ba;
-    height: 4em;
+    height: map-get($nav,alto);
     grid-area: navIndex;
     padding: 0%;
 
     .aFonts {
-        padding: 0;
-        margin: 0;
+        @include lados(0,0);
         background-color: #ffd7ba;
         height: auto;
     }
 
     .barra {
-        padding: 0;
-        margin: 0;
+        @include lados (0,0);
         background: #ffd7ba;
 
         .divNav {
             background: #ffd7ba;
-            height: 4em;
+            height: map-get($nav,alto);
             justify-content: space-evenly;
             justify-items: auto;
 
             .navIndex {
-                width: 100%;
+                width: map-get($nav,ancho);
                 margin-right: 0%;
                 justify-content: space-around;
 
                 .aFonts {
-                    padding: 0;
-                    margin: 0;
+                    @include lados (0,0);
                     background-color: #ffd7ba;
                     height: auto;
                 }
@@ -38,7 +35,7 @@ nav {
                     color: #001219;
                     text-decoration: none;
                     font-size: 1.7em;
-                    font-family: monospace;
+                    font-family: map-get($nav,letra);
                 }
             }
         }
@@ -48,15 +45,13 @@ nav {
 
 
 .barraProducts {
-    margin: 0;
-    padding: 0;
+    @include lados (0,0);
     background-color: #e78f8e;
     height: auto;
 
     .a2Fonts {
         background-color: #e78f8e;
-        padding: 0;
-        margin: 0;
+        @include lados (0,0);
         height: auto;
 
         .navIndex {

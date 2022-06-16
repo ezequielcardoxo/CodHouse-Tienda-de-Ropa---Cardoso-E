@@ -1,6 +1,6 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 .banner {
@@ -54,11 +54,6 @@ h2 {
   width: 100%;
 }
 
-.centrarForm {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-}
 .centrarForm h2 {
   text-align: center;
   font-size: 3.5em;
@@ -68,9 +63,6 @@ h2 {
   margin: 1.5em auto 1.5em auto;
 }
 .centrarForm .divForm {
-  display: grid;
-  justify-content: center;
-  align-items: center;
   box-shadow: 0 0 1.1em 0 rgb(226, 78, 201);
   padding: 1em;
   background-color: #e4b5c8;
@@ -162,8 +154,8 @@ nav .barra .divNav .navIndex a {
 }
 
 .barraProducts {
-  margin: 0;
   padding: 0;
+  margin: 0;
   background-color: #e78f8e;
   height: auto;
 }
@@ -181,6 +173,12 @@ nav .barra .divNav .navIndex a {
 .barraProducts .a2Fonts .nav-link {
   color: #001219;
   font-family: monospace;
+}
+
+.centrarForm, .centrarForm .divForm {
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
