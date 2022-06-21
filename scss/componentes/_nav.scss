@@ -43,26 +43,14 @@ nav {
 
 }
 
-
-.barraProducts {
-    @include lados (0,0);
+.productosBarra {
     background-color: #e78f8e;
-    height: auto;
-
-    .a2Fonts {
-        background-color: #e78f8e;
-        @include lados (0,0);
-        height: auto;
-
-        .navIndex {
-            width: 100%;
-            margin-right: 0%;
-            justify-content: space-around;
-        }
-
-        .nav-link {
-            color: #001219;
-            font-family: monospace;
-        }
+    font-family: monospace;
+    li a {
+        color: #001219;
+        font-size: 1.5em;
+    }
+    a:hover {
+        color: rgb(134, 35, 116);
     }
 }

@@ -153,26 +153,16 @@ nav .barra .divNav .navIndex a {
   font-family: monospace;
 }
 
-.barraProducts {
-  padding: 0;
-  margin: 0;
+.productosBarra {
   background-color: #e78f8e;
-  height: auto;
-}
-.barraProducts .a2Fonts {
-  background-color: #e78f8e;
-  padding: 0;
-  margin: 0;
-  height: auto;
-}
-.barraProducts .a2Fonts .navIndex {
-  width: 100%;
-  margin-right: 0%;
-  justify-content: space-around;
-}
-.barraProducts .a2Fonts .nav-link {
-  color: #001219;
   font-family: monospace;
+}
+.productosBarra li a {
+  color: #001219;
+  font-size: 1.5em;
+}
+.productosBarra a:hover {
+  color: rgb(134, 35, 116);
 }
 
 .centrarForm, .centrarForm .divForm {
