@@ -51,19 +51,31 @@ h2 {
   }
 }
 
-.columnImg {
-  padding: 0;
+.imgX3 {
+  justify-content: center;
+}
+
+.containerIndex {
+  padding: 0%;
   margin: 0 auto;
-  justify-content: space-evenly;
-  justify-items: center;
-  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  row-gap: 1.4em;
 }
-.columnImg .mov:hover {
-  transition: all 0.5s;
-  transform: scale(1.1);
+.containerIndex .bodyCard {
+  background-color: #efd4d1;
 }
-.columnImg .mov .imgG {
-  width: 100%;
+.containerIndex .bodyCard .cartaTit {
+  font-size: 1em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.containerIndex .bodyCard .botonComprar {
+  background-color: #bfb7d1;
+  border: #001219;
+  color: #001219;
+}
+.containerIndex .bodyCard .botonComprar:hover {
+  background-color: rgb(211, 113, 193);
 }
 
 .centrarForm h2 {

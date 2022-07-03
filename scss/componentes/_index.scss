@@ -1,20 +1,29 @@
-.columnImg {
-    padding: 0;
+.containerIndex {
+    padding: 0%;
     margin: 0 auto;
-    justify-content: space-evenly;
-    justify-items: center;
-    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    row-gap: 1.4em;
 
-    .mov {
-        &:hover {
-            transition: all 0.5s;
-            transform: scale(1.1);
+    .bodyCard {
+        background-color: #efd4d1;
+
+        .cartaTit {
+            font-size: 1em;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
         }
 
-        .imgG {
-            width: 100%;
+        .botonComprar {
+            background-color: #bfb7d1;
+            border: #001219;
+            color: #001219;
+
+            &:hover {
+                background-color: rgb(211, 113, 193);
+            }
+
         }
+
 
     }
 }
-
